@@ -3,6 +3,8 @@ package com.github.specht;
 
 public abstract class Animal {
 	
+	TipoBicho tpBicho;
+	
 	public void correr() {
 		
 		
@@ -14,5 +16,7 @@ public abstract class Animal {
 		System.out.println(this.getClass().getName()+"");
 		throw new Exception();
 	}
+	
+	
 
 }
